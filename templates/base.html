@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Dstagram {% block title %} {% endblock %}</title>
+</head>
+<body>
+<div class="container">
+    <header class="header clearfix">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="/">Dstagram</a>
+           <ul class="nav">
+               <li class="nav-item"><a href="/" class="active nav-link ">Home</a></li>
+               {% if user.is_authenticated %}
+               <li class="nav-item"><a href="#" class="nav-link">Welcome, {{user.get_username}}</a></li>
+               <li class="nav-item"><a href="{% url 'photo:photo_upload' %}"class="nav-link"> Upload </a></li>
+               <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">Logout</a></li>
+               {% else %}
+               <li class="nae-item"><a href="{% url 'login' %}" class="nav-link">Login</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">Signup</a></li>
+               {% endif %}
+           </ul>
+       </nav>
+    </header>
+    {% block content %}
+    {% endblock %}
+
+    <footer class="footer">
+        <p> &copy; 2018 swko. Powered By Django </p>
+    </footer>
+</div>
+
+</body>
+</html>

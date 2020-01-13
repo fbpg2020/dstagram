@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb36ef1e-9736-4dfb-9efd-4a30b1ba156a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dstagram" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WKDdmvRjwYIIaiJoMQEnjaTcr0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/accounts/templates/registration" />
+      <recent name="$PROJECT_DIR$/templates/photo" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb36ef1e-9736-4dfb-9efd-4a30b1ba156a" name="Default Changelist" comment="" />
+      <created>1578889482325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578889482325</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="771" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578904080707">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="771" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.2493.1413/2560.624.1920.1080@67.27.2493.1413" timestamp="1578904080707" />
+    <state x="802" y="367" key="SettingsEditor" timestamp="1578904198548">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="802" y="367" key="SettingsEditor/67.27.2493.1413/2560.624.1920.1080@67.27.2493.1413" timestamp="1578904198548" />
+    <state x="969" y="560" key="com.intellij.ide.util.TipDialog" timestamp="1578889485801">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="969" y="560" key="com.intellij.ide.util.TipDialog/67.27.2493.1413/2560.624.1920.1080@67.27.2493.1413" timestamp="1578889485801" />
+    <state x="977" y="415" width="662" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578902877534">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="977" y="415" width="662" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.2493.1413/2560.624.1920.1080@67.27.2493.1413" timestamp="1578902877534" />
+    <state x="976" y="347" width="672" height="678" key="search.everywhere.popup" timestamp="1578904386994">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="976" y="347" width="672" height="678" key="search.everywhere.popup/67.27.2493.1413/2560.624.1920.1080@67.27.2493.1413" timestamp="1578904386994" />
+  </component>
+</project>
